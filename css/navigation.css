@@ -1,0 +1,34 @@
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 12px 5px 12px 5px;
+    padding: 7px;
+    color: #2B2D42;
+}
+
+nav a{
+    display: block;
+    padding: 3px;
+    color: black;
+}
+
+nav a:hover{
+    color:white;
+}
+
+nav ul li:hover {
+    background-color: #FFDE00;
+    box-shadow: 5px 5px 10px #2B2D42;
+}
+
+.menu a.is-current {
+  color: darkred;
+  font-weight: bold;
+}
